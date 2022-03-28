@@ -11,7 +11,6 @@
   inputs.src-nimeverything-master.ref   = "refs/heads/master";
   inputs.src-nimeverything-master.owner = "xland";
   inputs.src-nimeverything-master.repo  = "nimeverything";
-  inputs.src-nimeverything-master.dir   = "";
   inputs.src-nimeverything-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
